@@ -1,0 +1,262 @@
+Day1_Class,method,object
+
+ DAY1:
+-------
+1.Java Introduction
+2.Class,Method,Object
+3.Same package and Different package
+4.Encapsulation
+
+QUESTIONS(Theory):
+------------
+1.What is platform independent?
+
+The meaning of platform-independent is that the java compiled code(byte code) can run on all operating systems. 
+A program is written in a language that is a human-readable language. 
+It may contain words, phrases, etc which the machine does not understand. ... 
+This intermediate representation in Java is the Java Byte Code.
+-----------------------------------------------
+2.What is open source?
+
+Open-source software is computer software that is released under a license in which the copyright holder grants users the rights to use, 
+study, change, and distribute the software and its source code to anyone and for any purpose. 
+Open-source software may be developed in a collaborative public manner.
+-------------------------------------------------
+3.Difference between JDK,JRE,JVM?
+
+JVM (Java Virtual Machine) is an abstract machine. It is called a virtual machine because it doesn't physically exist. 
+It is a specification that provides a runtime environment in which Java bytecode can be executed. 
+It can also run those programs which are written in other languages and compiled to Java bytecode.
+The JVM performs the following main tasks:
+
+Loads code
+Verifies code
+Executes code
+Provides runtime environment
+
+JRE
+JRE is an acronym for Java Runtime Environment. 
+It is also written as Java RTE. The Java Runtime Environment is a set of software tools which are used for developing Java applications. 
+It is used to provide the runtime environment. 
+It is the implementation of JVM. It physically exists. It contains a set of libraries + other files that JVM uses at runtime.
+
+JDK
+JDK is an acronym for Java Development Kit. 
+The Java Development Kit (JDK) is a software development environment which is used to develop Java applications and applets. 
+It physically exists. It contains JRE + development tools.
+
+JDK is an implementation of any one of the below given Java Platforms released by Oracle Corporation:
+
+Standard Edition Java Platform
+Enterprise Edition Java Platform
+Micro Edition Java Platform
+--------------------------------------------
+
+4.why we go for java?
+
+The advantages of Java are as follows:
+
+Java is easy to learn.
+Java was designed to be easy to use and is therefore easy to write, compile, debug, and learn than other programming languages.
+
+Java is object-oriented.
+This allows you to create modular programs and reusable code.
+
+Java is platform-independent.
+One of the most significant advantages of Java is its ability to move easily from one computer system to another. 
+The ability to run the same program on many different systems is crucial to World Wide Web software, and 
+Java succeeds at this by being platform-independent at both the source and binary levels.
+
+5.What is the latest version of JDK and which version you are using in your project?
+
+The latest version of Java is Java 17 or JDK 17
+
+6.What is the latest version of eclispe and which version you are using in your project?
+
+4.21 (2021-09 release)
+
+7.Difference between c++ and java?
+
+8.Features of java?
+9.What type of tool you are using in your project to execute java?
+10.Difference between class,method,object?
+11.Where object stores?
+12.How to access one class method in to another package in different package?
+13.What is encapsulation?
+14.Coding standard to create project,class,method,package and object ?
+15.What gives Java it's "write once and run anywhere" nature? 
+
+QUESTIONS(Programs):
+-----------------
+QUESTION 1:
+------------
+     Project   :EmployeeDetails
+     Package   :org.emp
+     Class     :Employee 
+     Methods   :empId(),empName(),empDob(),empPhone(),empEmail(),empAddress()
+
+Description:
+Create an object for employee class and call above methods also follow the all coding standards.
+
+QUESTION 2: 
+-------------
+     Project   :GreensAddress
+     Package   :org.add
+     Class     :GreensTech
+     Methods   :greensOmr(),greensAdayar(),greensTambaram(),greensVelacherry(),greensAnnaNagar()
+
+Description:
+Create an object for GreensTech class and call above methods also follow the all coding standards.
+
+QUESTION 3:
+------------
+   Project     :CompanyDetails
+   Package     :org.company
+   Class       :CompanyInfo
+   Methods     :companyName(),companyId(),companyAddress()
+
+Description:
+Create an object for CompanyDetails class and call above methods also follow the all coding standards.
+
+QUESTION 4:
+-----------
+   Project     :MyPhone
+   Package     :org.phone
+   Class       :PhoneInfo
+   Methods     :phoneName(),phoneMieiNum(),Camera(),storage(),osName()
+
+Description:
+Create an object for PhoneInfo class and call above methods also follow the all coding standards.
+
+QUESTION 5:
+------------
+     Project   :LanguageDetails
+     Package   :org.lang
+
+     Class     :LanguageInfo
+     Methods   :tamilLanguage(),englishLanguage(),hindiLanguage()
+
+     Class     :StateDetails
+     Methods   :southIndia(),northIndia()
+
+Description:
+Create an object for LanguageInfo and StateDetails  inside the StateDetails class and call both classes methods also follow the all coding standards.
+
+QUESTION 6:
+-----------
+     Project   :EmployeeInformation
+     Package   :org.emp
+     Class     :Employee
+     Methods   :empName()
+
+     Package   :org.company
+     Class     :Company
+     Methods   :companyName()
+
+     Package   :org.client
+     Class     :Client
+     Methods   :clientName()
+
+     Package   :org.project
+     Class     :Project
+     Methods   :projectName()
+
+Description:
+Create an object for all 4 classes  inside the Employee class and call all classes methods also follow the all coding standards.
+
+QUESTION 7:
+-------------
+     Project   :PhoneDetails
+     Package   :org.phone
+     Class     :ExternalStorage
+     Methods   :size()
+
+     Class     :InternalStorage
+     Methods   :processorName(),ramSize()
+
+Description:
+Create an object for ExternalStorage and InternalStorage inside the InternalStorage class and call both classes methods also follow the all coding standards.
+
+QUESTION 8:
+------------
+     Project   :CollegeInformation
+     Package   :org.college
+     Class     :College
+     Methods   :collegeName(),collegeCode(),collegeRank()
+
+     Class     :Student
+     Methods   :studentName(),studentDept(),studentId()
+
+     Class     :Hostel
+     Methods   :hostelName()
+
+     Class     :Dept
+     Methods   :deptName()
+
+Description:
+Create an object for all 4 classes  inside the College class and call all classes methods also follow the all coding standards.
+
+ 
+QUESTION 9:
+------------
+     Project   :VehicleInformation
+     Package   :org.allvehicle
+     Class     :Vehicle
+     Methods   :VehicleNecessery()
+
+     Package   :org.twowheeler
+     Class     :TwoWheller
+     Methods   :bike(),cycle()
+
+     Package   :org.threewheeler
+     Class     :ThreeWheeler
+     Methods   :Auto()
+
+     Package   :org.fourwheeler
+     Class     :FourWheeler
+     Methods   :car(),bus(),lorry()
+
+Description:
+Create an object for all 4 classes  inside the Vehicle class and call all classes methods also follow the all coding standards.   
+
+QUESTION 10:
+--------------
+     Project   :TransportInformation
+     Package   :org.transport
+     Class     :Transport
+     Methods   :TransportForm
+     
+     Package   :org.road
+     Class     :Road
+     Methods   :bike(),cycle(),bus(),car()
+
+     Package   :org.air
+     Class     :Air
+     Methods   :aeroPlane(),heliCopter()
+
+     Package   :org.water
+     Class     :Water
+     Methods   :boat(),ship()
+
+Description:
+Create an object for all 4 classes  inside the Transport class and call all classes methods also follow the all coding standards.   
+
+
+QUESTION 11:
+--------------
+     Project   :NetworkInformation
+     Package   :org.network
+     Class     :Wifi
+     Methods   :wifiName()
+
+     Class     :MobileData
+     Methods   :dataName()
+
+     Class     :Lan
+     Methods   :lanName()
+
+     Class     :Wireless
+     Methods   :modamName()
+
+Description:
+Create an object for all 4 classes  inside the Wifi class and call all classes methods also follow the all coding standards.
