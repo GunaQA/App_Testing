@@ -1,4 +1,4 @@
-Day1_Class,method,object
+Day1
 
  DAY1:
 -------
